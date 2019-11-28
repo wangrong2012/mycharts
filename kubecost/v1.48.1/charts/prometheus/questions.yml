@@ -1,3 +1,6 @@
+labels:
+  io.cattle.role: cluster # options are cluster/project
+questions:
 - variable: alertmanager.persistentVolume.storageClass
   default: ""
   description: "alertmanager persistent volume storageClass, if not set use default StorageClass"

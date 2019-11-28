@@ -1,7 +1,8 @@
 categories:
 - Monitoring
-- Kubecost
-
+labels:
+  io.cattle.role: cluster # options are cluster/project
+questions:
 - variable: persistentVolume.storageClass
   default: ""
   description: "If undefined or set to null, using the default storageClass. Defaults to null."
