@@ -101,6 +101,7 @@ affinity: {}
 ##
 persistence:
   enabled: false
+  storageClassName: ceph-storage
   # storageClassName: default
   # accessModes:
   #   - ReadWriteOnce

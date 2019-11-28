@@ -182,7 +182,7 @@ alertmanager:
     ##   GKE, AWS & OpenStack)
     ##
     # storageClass: "-"
-
+    storageClass: "ceph-storage"
     ## Subdirectory of alertmanager data Persistent Volume to mount
     ## Useful if the volume's root directory is not empty
     ##
@@ -703,7 +703,7 @@ server:
     ##   GKE, AWS & OpenStack)
     ##
     # storageClass: "-"
-
+    storageClass: "ceph-storage"
     ## Subdirectory of Prometheus server data Persistent Volume to mount
     ## Useful if the volume's root directory is not empty
     ##
@@ -931,7 +931,7 @@ pushgateway:
     ##   GKE, AWS & OpenStack)
     ##
     # storageClass: "-"
-
+    storageClass: "ceph-storage"
     ## Subdirectory of alertmanager data Persistent Volume to mount
     ## Useful if the volume's root directory is not empty
     ##
