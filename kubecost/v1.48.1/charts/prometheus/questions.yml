@@ -1,0 +1,19 @@
+- variable: alertmanager.persistentVolume.storageClass
+  default: ""
+  description: "alertmanager persistent volume storageClass, if not set use default StorageClass"
+  type: storageclass
+  label: Alertmanager Persistent Volume StorageClass
+
+
+- variable: server.persistentVolume.storageClass
+  default: ""
+  description: "Prometheus server persistent volume storageClass, if not set use default StorageClass"
+  type: storageclass
+  label: Prometheus server Persistent Volume StorageClass
+
+
+- variable: pushgateway.persistentVolume.storageClass
+  default: ""
+  description: "pushgateway persistent volume storageClass, if not set use default StorageClass"
+  type: storageclass
+  label: pushgateway Persistent Volume StorageClass
