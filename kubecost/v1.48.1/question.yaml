@@ -1,0 +1,9 @@
+categories:
+- Monitoring
+- Kubecost
+
+- variable: persistentVolume.storageClass
+  default: ""
+  description: "If undefined or set to null, using the default storageClass. Defaults to null."
+  type: storageclass
+  label: Storage Class for Grafana
