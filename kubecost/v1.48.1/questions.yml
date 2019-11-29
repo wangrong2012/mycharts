@@ -9,21 +9,21 @@ questions:
   type: storageclass
   label: Storage Class
 #
-- variable: prometheus.persistentVolume.storageClass
+- variable: prometheus.prometheus.persistentVolume.storageClass
   default: ""
   description: "If undefined or set to null, using the default storageClass. Defaults to null."
   type: storageclass
   label: prometheus Storage Class  
   
 #  
-- variable: alertmanager.persistentVolume.storageClass
+- variable: prometheus.alertmanager.persistentVolume.storageClass
   default: ""
   description: "If undefined or set to null, using the default storageClass. Defaults to null."
   type: storageclass
   label: alertmanager Storage Class  
   
  #
-- variable: pushgateway.persistentVolume.storageClass
+- variable: prometheus.pushgateway.persistentVolume.storageClass
   default: ""
   description: "If undefined or set to null, using the default storageClass. Defaults to null."
   type: storageclass
