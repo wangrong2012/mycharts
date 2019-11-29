@@ -9,7 +9,7 @@ questions:
   type: storageclass
   label: Storage Class
 #
-- variable: prometheus.prometheus.persistentVolume.storageClass
+- variable: prometheus.server.persistentVolume.storageClass
   default: ""
   description: "If undefined or set to null, using the default storageClass. Defaults to null."
   type: storageclass
