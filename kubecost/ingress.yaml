@@ -1,0 +1,13 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: kubecost-ingress
+  namespace: cost-analyzer
+spec:
+  rules:
+  - host: cost-analyzer.cost-analyzer.local140
+    http:
+      paths:
+      - backend:
+          serviceName: cost-analyzer-cost-analyzer
+          servicePort: 9090
